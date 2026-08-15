@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "beachday";
+  src: url("beachday.ttf") format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(circle at top left, #5b42f3, transparent 35%),
+    radial-gradient(circle at bottom right, #ff135a, transparent 35%),
+    #180a22;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "beachday";
+}
+
+#title {
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+}
