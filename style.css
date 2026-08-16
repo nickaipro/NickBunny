@@ -210,3 +210,7 @@ body {
     outline-offset: 0.4em;
   }
 }
+
+#headphones {
+  visibility: hidden
+}
